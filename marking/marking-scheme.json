@@ -1,0 +1,97 @@
+{
+  "totalMark": 6.5,
+  "wsosSections": {
+    "1": "Section One",
+    "2": "Section Two",
+    "3": "Section Three",
+    "4": "Section Four",
+    "5": "Section Five"
+  },
+  "subCriterions": [
+    {
+      "name": "Placeholder Criterion A",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Placeholder description for a design-related aspect",
+          "maxMark": 2,
+          "wsosSection": 1,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "Very poor implementation or missing",
+            "Basic implementation with minimal effort",
+            "Good implementation with solid design choices",
+            "Excellent, professional-level implementation with creative enhancements"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Placeholder description for usability",
+          "maxMark": 1,
+          "wsosSection": 2,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "Not usable or extremely confusing",
+            "Some usability, but with issues",
+            "Generally usable with minor improvements needed",
+            "Highly usable and intuitive interface"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Placeholder Criterion B",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Functionality works as expected",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "Feature works under normal conditions",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Edge case handling",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "Feature handles invalid input or unusual cases properly",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Placeholder Criterion C",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Persistence of data",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Data is preserved across sessions or reloads",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Error feedback",
+          "maxMark": 0.5,
+          "wsosSection": 5,
+          "extraDescription": "User is informed when something goes wrong",
+          "judgementScoreDescription": [
+            "No feedback at all",
+            "Basic or unclear feedback",
+            "Clear and helpful error messages",
+            "Highly informative and user-friendly error handling"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
